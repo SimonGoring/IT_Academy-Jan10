@@ -51,4 +51,6 @@ boxplot(X2P ~ Tm, data = nba.data, cex.axis = 0.7)
 
 ```
 
-So we've done some basic analysis with R.  Let's look at another way of getting data.
+In this example you can't see the actual names of some of the teams.  The figure width isn't wide enough for these plots, so take some time to do this yourself and play with the width.  Also look at the team names and the raw data.  Do you notice anything about them?  Why are some players repeated?  What are some other questions you have about the data and how can we answer them?
+
+Once we've done some basic analysis with R.  Let's look at another way of getting data.

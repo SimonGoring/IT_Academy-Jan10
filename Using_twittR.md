@@ -17,8 +17,8 @@ Some APIs are free to use, some are more complicated and require pre-registratio
 
 So let's look for a specific tweet.  I sent out a tweet the other day that used a nonsense hashtag, can the Twitter API find it?
 
-```{r, eval=FALSE, echo=TRUE}
 
+```r
 #  To Use this example you need your own twitter account.
 
 library(twitteR)
@@ -41,20 +41,16 @@ registerTwitterOAuth(twitCred) #Wait till you see True
 
 #  Takes about 1 min to register.
 test_tweet <- searchTwitter("#mamdmamgasfd", n=2000, ssl.verifypeer = FALSE) #Get the Tweets
-
 ```
 
 Okay, this code should have worked and you should get a resonse that looks something like this:
 
-```{r eval = FALSE, echo = FALSE}
-Warning message:
-In doRppAPICall("search/tweets", n, params = params, retryOnRateLimit = retryOnRateLimit,  :
-  2000 tweets were requested but the API can only return 1
-```
+
 
 What does that one tweet look like?
 
-```{r eval = FALSE, echo=TRUE}
+
+```r
 test_tweet
 ```
 

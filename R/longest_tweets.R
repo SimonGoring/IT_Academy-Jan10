@@ -22,7 +22,7 @@ twitCred$handshake(ssl.verifypeer = FALSE) #Pause here for the Handshake Pin Cod
 
 registerTwitterOAuth(twitCred) #Wait till you see True
 
-oneD <- searchTwitter("#onedirection", n=2000, ssl.verifypeer = FALSE) #Get the Tweets
+oneD <- searchTwitter('#katyperry', n=2000, ssl.verifypeer = FALSE) #Get the Tweets
 jayZ <- searchTwitter("#jayz", n=2000, ssl.verifypeer = FALSE) #Get the Tweets
 
 getCounts <- function(x){
@@ -31,3 +31,4 @@ getCounts <- function(x){
 
 oneD.counts <- getCounts(oneD)
 jayZ.counts <- getCounts(jayZ)
+
