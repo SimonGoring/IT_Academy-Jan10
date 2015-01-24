@@ -13,3 +13,8 @@ Most of this workshop will not follow the examples on line, these are starting p
 If you are interested in finding data to explore try some of these places to start:
 
 * [IBM's Curated Datasets](http://ibmhadoop.challengepost.com/details/data) includes links to a number of interesting datasets
+
+If you want to keep learning R take a look at this:
+
+* UCLA's [Resources to Learn R](http://www.ats.ucla.edu/stat/r/)
+* CodeSchool's [TryR](http://tryr.codeschool.com/) program.
